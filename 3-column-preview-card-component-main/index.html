@@ -5,32 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | 3-column preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    #cards {display: flex; flex-direction: row; margin: auto; width: 50%; padding-top: 15%;}
+    .title {font-size: 28px; font-weight: 700; font-family: 'Big Shoulders Display', cursive;}
+    #info {font-size: 14px; font-weight: 200; font-family: 'Lexend Deca', sans-serif; line-height: 20px;}
+    .title, #info {margin-left: 10%; margin-right: 10%;}
+    .sedans {background-color: hsl(31, 77%, 52%);}
+    .suvs {background-color: hsl(184, 100%, 22%)}
+    .luxury{background-color:  hsl(179, 100%, 13%);}
+    .sedans, .suvs, .luxury{color: white;}
+    #learn-more {font-family: 'Lexend Deca', sans-serif;}
   </style>
 </head>
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
+  <div id="cards">
+  <section class="sedans"> 
+    <img src="C:\Users\robin\Downloads\3-column-preview-card-component-main\3-column-preview-card-component-main\images\icon-sedans.svg"><br>
+    <div class="title">Sedans</div><br>
+    <div id="info" class="sedan-info">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.</div><br>
+    <button id="learn-more">Learn More</button><br><br>
+  </section>
+  <section class="suvs"> 
+    <img src="3-column-preview-card-component-main\images\icon-suvs.svg"><br>
+    <div class="title">SUV's</div><br> 
+    <div id="info" class="suv-info">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures.</div><br>
+    <button id="learn-more">Learn More</button><br><br>
+  </section>
+  <section class="luxury"> 
+    <img src="C:\Users\robin\Downloads\3-column-preview-card-component-main\3-column-preview-card-component-main\images\icon-luxury.svg"><br>
+    <div class="title">Luxury</div><br> 
+    <div id="info" class="luxury-info">Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</div><br>
+    <button id="learn-more">Learn More</button><br><br>
+  </section>
+</div>
 
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Robin Blake, 2021</a>.
   </div>
 </body>
 </html>
