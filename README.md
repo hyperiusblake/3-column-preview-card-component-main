@@ -7,9 +7,10 @@
 
 ### My Result
 
-![My Result]("https://github.com/hyperiusblake/3-column-preview-card-component-main/blob/master/challenge1.png")
+![challenge1](https://user-images.githubusercontent.com/64546533/140996473-8c42819a-8e38-40cb-b9f4-c44698461b80.png)
 
 ### Built with
+
 
 - Semantic HTML5 markup
 - CSS custom properties
