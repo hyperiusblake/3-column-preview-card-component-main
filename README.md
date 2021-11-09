@@ -7,7 +7,7 @@
 
 ### My Result
 
-![My Result]("https://twitter.com/robindeanblake/status/1458160809234796552/photo/1")
+![My Result]("https://github.com/hyperiusblake/3-column-preview-card-component-main/blob/master/challenge1.png")
 
 ### Built with
 
